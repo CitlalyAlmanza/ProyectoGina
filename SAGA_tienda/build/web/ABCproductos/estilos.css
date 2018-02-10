@@ -1,0 +1,14 @@
+
+*{
+    background-color: aquamarine;
+    color:gray;
+}
+
+#campo{
+    height: 300px;
+    width: 50%;
+    color:aquamarine;
+    background-color: gray;
+    font-size: 23px;
+    float: left;
+}

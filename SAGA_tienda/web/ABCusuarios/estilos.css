@@ -1,0 +1,183 @@
+
+body{
+     background: black;
+     background-image: url('../Imagenes/fondo2.jpg');
+     font-family: 'Play' , sans-serif;
+     font-size: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.contenido{
+    float:left;
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    /*background-color:  #009999;*/
+    width: 450px;
+    height: 450px;
+}
+
+div#titulo{
+  font-family: 'Lemonada', cursive;
+  font-size: 25px;
+  color: white;
+}
+div#video{
+    float:left;
+    color: white;
+    font-family: 'Little Days';
+    margin: 10px;
+    font-size: 50px;
+    background-color: #efba88;
+    width: 550px;
+    height: 600px;
+    /*borde*/
+    border-top: 19px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+    border-top-color: black;
+    border-right-color: #e07c1f;
+    border-bottom-color: #e07c1f;
+    border-left-color: #e07c1f;
+}
+div#visitatienda{
+    float:left;
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    width: 400px;
+    height: 600px;
+}
+img#logoEfecto{
+    float: left;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 15px;   
+    height: 100px;
+    width: 100px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+img#logoEfecto:hover {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-left: -50px;
+}
+
+#logo{
+    position: absolute;
+}
+.navegacion{
+    width: 100%;
+}
+.navegacion nav{
+    width: 90%;
+    max-width: 1100px;
+    background: #00b3b3;
+    margin: 40px auto; /* El auto es para que se centre*/
+    
+}
+.navegacion nav ul {
+    list-style: none; /*Se quiten los puntitos de la lista*/
+    position: relative;/*Importate para hacer un submenu*/
+    font-size: 20px;
+}
+.navegacion nav ul li:hover{
+    background-color: #1f7a7a;
+    color: white;
+}
+.navegacion nav > ul > li:hover span{
+   display: block;  
+}
+.navegacion nav ul li .submenu .sub_items p{
+    font-weight: 600px;
+    width: 110px;
+    display:block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid  #006666;
+    margin-bottom: 10px;
+   
+}
+.navegacion nav ul li .submenu .sub_items a{
+    color: white;/*color de letras de submenu */
+    text-decoration: none;
+    font-size: 24px;
+    margin: 3px 0;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.navegacion nav > ul > li{
+    display: inline-block; /*Sea acomoden de manera horizontal*/
+
+}
+.navegacion nav > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.navegacion nav > ul > li > a span{
+   font-size: 20px;
+   position: absolute;
+   bottom: -8px;
+   display: none;
+}
+.navegacion nav ul li .submenu{
+    background: #009999;
+    padding: 20px;
+    position: absolute;
+    display: none;
+}
+.navegacion nav  ul li:hover .submenu{
+   display: flex;
+}
+.navegacion nav ul li .submenu .sub_items{
+    margin: 0 20px;
+}
+
+div#base{   
+  margin: 0px 150px;
+ 
+}
+
+/*#fondoEncabezado{ para ponel el fondo del encabezado mas largo 
+    background-color: #e60073;
+    width: 2000px;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: initial;
+    
+}*/ 
+header{
+    background-color: #006666;
+    height: 250px;
+    width: 1000px;
+    float: left;
+}
+section{
+    background-color: #ecc6c6;
+    float: center;
+    /*height: 800px;  //para que tome límite de altura*/
+    width: 1000px;
+    float: left;
+}
+footer{
+    width: 1000px;
+    height: 50px;
+    float: left;
+    background-color:#006666;
+}
+    
+/*estilos para el menu */
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/

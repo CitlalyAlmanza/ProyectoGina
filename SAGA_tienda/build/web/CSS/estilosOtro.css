@@ -1,0 +1,116 @@
+body{
+    background: black;
+    background-image: url('../Imagenes/fondo2.jpg');
+    font-family: 'Play' , sans-serif;
+    font-size: 15px;       
+}
+div#base{   
+     margin: 0px 150px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div #entrada{
+    width: 500px;
+    font-size: 30px;
+    background-color:  #006666;
+    color: white;
+    font-family: 'Little Days';
+}
+header{
+    background-color: #006666;
+    height: 150px;
+    width: 1000px;
+    float: center;
+    color:white;
+    font-family: 'Lemonada', cursive;
+}
+section{
+    background-color: #ecc6c6;
+    float: center;
+    /*height: 800px;  //para que tome límite de altura*/
+    width: 1000px;
+    height: 1200px;
+    float: center;
+}
+footer{
+    width: 1000px;
+    height: 50px;
+    float: center;
+    background-color:#006666;
+}
+/***********************************************************************/
+.navegacion{
+    width: 100%;
+}
+.navegacion nav{
+    width: 90%;
+    max-width: 1100px;
+    background: #00b3b3;
+    margin: 40px auto; /* El auto es para que se centre*/
+    
+}
+.navegacion nav ul {
+    list-style: none; /*Se quiten los puntitos de la lista*/
+    position: relative;/*Importate para hacer un submenu*/
+    font-size: 20px;
+}
+.navegacion nav ul li:hover{
+    background-color: #1f7a7a;
+    color: white;
+}
+.navegacion nav > ul > li:hover span{
+   display: block;  
+}
+.navegacion nav ul li .submenu .sub_items p{
+    font-weight: 600px;
+    width: 110px;
+    display:block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid  #006666;
+    margin-bottom: 10px;
+   
+}
+.navegacion nav ul li .submenu .sub_items a{
+    color: white;/*color de letras de submenu */
+    text-decoration: none;
+    font-size: 24px;
+    margin: 3px 0;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.navegacion nav > ul > li{
+    display: inline-block; /*Sea acomoden de manera horizontal*/
+
+}
+.navegacion nav > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.navegacion nav > ul > li > a span{
+   font-size: 20px;
+   position: absolute;
+   bottom: -8px;
+   display: none;
+}
+.navegacion nav ul li .submenu{
+    background: #009999;
+    padding: 20px;
+    position: absolute;
+    display: none;
+}
+.navegacion nav  ul li:hover .submenu{
+   display: flex;
+}
+.navegacion nav ul li .submenu .sub_items{
+    margin: 0 20px;
+}
+/********************************************************/
+div#Mision,div#Vision{
+    font-size: 20px;
+    font-family: Arial Rounded MT Bold;
+    
+}
